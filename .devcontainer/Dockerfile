@@ -3,7 +3,7 @@ ARG VARIANT=16-buster
 FROM node:${VARIANT}
 
 # [Option] Install zsh
-ARG INSTALL_ZSH="true"
+ARG INSTALL_ZSH="false"
 # [Option] Upgrade OS packages to their latest versions
 ARG UPGRADE_PACKAGES="true"
 

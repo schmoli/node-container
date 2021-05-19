@@ -5,12 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "node",
+            "type": "chrome",
             "request": "launch",
-            "name": "Launch Program",
-            "program": "${workspaceFolder}/test-project/server.js",
-            "cwd": "${workspaceFolder}/test-project",
-            "preLaunchTask": "npm: install - test-project"
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:4200",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true,
+            "trace": "verbose",
+            "runtimeArgs": [
+                "--new-window",
+                "--incognito",
+                "--remote-debugging-port=9222"
+            ]
         }
     ]
 }

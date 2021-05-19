@@ -1,8 +1,13 @@
 {
-    "eslint.workingDirectories": [
-        {
-            "directory": "./test-project",
-            "changeProcessCWD": true
-        }
-    ]
+  "cSpell.words": ["spexis"],
+  "workbench.colorTheme": "GitHub Dark Default",
+  "cSpell.ignorePaths": [
+    "**/package-lock.json",
+    "**/node_modules/**",
+    "**/vscode-extension/**",
+    "**/.git/objects/**",
+    ".vscode",
+    ".vscode-insiders",
+    "**/.devcontainer/**"
+  ]
 }

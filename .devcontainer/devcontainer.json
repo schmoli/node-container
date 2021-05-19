@@ -19,7 +19,8 @@
     "coenraads.bracket-pair-colorizer-2",
     "esbenp.prettier-vscode",
     "github.github-vscode-theme",
-    "streetsidesoftware.code-spell-checker"
+    "streetsidesoftware.code-spell-checker",
+    "msjsdiag.debugger-for-chrome"
   ],
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
