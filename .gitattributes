@@ -6,4 +6,5 @@
 *.ts eol=lf
 *.json eol=lf
 .*=lf
+*.sh eol=lf
 Dockerfile eol=lf
