@@ -1,5 +1,5 @@
 {
-  "name": "Angular",
+  "name": "angular multi-arch",
   "build": {
     "dockerfile": "Dockerfile",
     // Update 'VARIANT' to pick a Node version: 12, 14, 16
